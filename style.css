@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+:root {
+
+    /* Page colors */
+    --text-color: #e5e7eb;        /* soft white */
+    --score-color: #60a5fa;       /* blue accent */
+    --body-bg-color: #0f172a;     /* deep navy */
+    --head-bg-color: #020617;     /* almost black */
+    --choice-bg-color: #1e293b;   /* dark card */
+    --msg-bg-color: #111827;      /* message box */
+
+    /* JS result colors */
+    --msg-bg-user-win: #22c55e;   /* green */
+    --msg-bg-comp-win: #ef4444;   /* red */
+}
+
+h1 {
+    height: 4rem;
+    background: var(--head-bg-color);
+    color: var(--text-color);
+    line-height: 4rem;
+}
+
+.choice {
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover {
+    background-color: var(--choice-bg-color);
+    cursor: pointer;
+    opacity: .7;
+}
+
+.choice img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 4rem;
+}
+
+.score {
+    font-size: 2rem;
+    color: var(--score-color);
+}
+
+#user-score,
+#comp-score {
+    font-size: 4rem;
+}
+
+.msg-board {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+#msg {
+    font-size: 1.8rem;
+    background: var(--msg-bg-color);
+    color: var(--text-color);
+    display: inline;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+}
+
+body {
+    background-color: var(--body-bg-color);
+}
+
+@media screen and (max-width:500px) {
+    #msg {
+        font-size: 1.3rem;
+    }
+}
