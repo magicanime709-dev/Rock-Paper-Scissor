@@ -23,3 +23,5 @@ The computer makes random choices each round.
 Future plans
 
 * Add online multiplayer
+
+https://github.com/user-attachments/assets/478be86b-1c74-43ec-a3ac-2196143e97a9
