@@ -1,5 +1,7 @@
 # Rock Paper Scissors 🎮
 
+Website: https://magicanime709-dev.github.io/Rock-Paper-Scissor-Game/
+
 A simple Rock Paper Scissors game built with JavaScript.
 
 * Play against the computer
