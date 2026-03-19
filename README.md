@@ -1,6 +1,3 @@
-# Rock-Paper-Scissor-2
-Rock paper scissor game, html, css, js
-
 # Rock Paper Scissors 🎮
 
 A simple Rock Paper Scissors game built with JavaScript.
